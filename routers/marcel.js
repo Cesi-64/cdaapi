@@ -27,6 +27,6 @@ router.put('', marcelCtrl.addMarcel)
 
 router.patch('/:id', marcelCtrl.updateMarcel)
     
-router.delete('/idiot/:id', marcelCtrl.deleteMarcel)
+router.delete('/:id', marcelCtrl.deleteMarcel)
 
 module.exports = router
